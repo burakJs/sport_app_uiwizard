@@ -4,7 +4,8 @@ import 'package:kartal/kartal.dart';
 import 'package:sport_app_uiwizard/product/language/locale_keys.g.dart';
 import 'package:sport_app_uiwizard/product/widget/primary_button.dart';
 
-class OnboardingView extends StatelessWidget {
+@immutable
+final class OnboardingView extends StatelessWidget {
   const OnboardingView({super.key});
 
   @override
